@@ -1,0 +1,188 @@
+/**
+*   Engima website
+*   @author Winston, Nobel, Ferdian
+*/
+
+#moviepic {
+    margin: 40px 0 0;
+    height: 300px;
+    width: 200px;
+    float: left;
+    border-radius: 7px;
+}
+
+#star {
+    width: 5%;
+    height: 7%;
+    float: left;
+    margin: 0 0 0;
+}
+
+#movie-title {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+
+#moviegenre-duration{
+    word-spacing: 5px;
+    font-size: 13px;
+    color: rgb(0,178,190);
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+#release-date{
+    word-spacing: 3px;
+    font-size: 13px;
+    color: gray;
+    margin: 0 0 10px;
+    font-weight: bold;
+}
+
+#movdetail{
+    font-size: 13px;
+    word-spacing: 5px;
+    margin: 0 0 10px;
+}
+
+p {
+    word-spacing: 5px;
+}
+
+.movdetail-container {
+    margin: 40px 20px 0px;
+    display: grid;
+    height: 300px;
+    padding: 40px 20px;
+}
+
+.schedule-review{
+    overflow: hidden;
+    width: 100%;
+}
+
+.schedule-container{
+    margin: 40px 10px 0;
+    display: grid;
+    height: auto;
+    padding: 40px 20px;
+    border: 5px solid #f1f1f1;
+    border-radius: 10px;
+    width: 50%;
+    float: left;
+}
+
+.review-container{
+    margin: 40px 0 0;
+    display: grid;
+    height: auto;
+    padding: 40px 20px;
+    border: 5px solid #f1f1f1;
+    border-radius: 10px;
+    width: 28%;
+    float: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 10px 0px 0px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+cont-title{
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+rev{
+font-size: 10px;
+color:rgb(128, 128, 128);
+}
+
+non-seat{
+font-size: 12px;
+color:rgb(128, 128, 128);
+}
+
+seat{
+font-size: 12px;
+}
+
+notava{
+font-size: 12px;
+color: red;
+}
+
+book{
+font-size: 12px;
+color:rgb(0,178,190);
+}
+
+a {
+text-decoration: none;
+display: inline-block;
+padding: 4px 10px;
+}
+
+a:hover {
+background-color: lightblue;
+color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+.next {
+background-color: rgb(0,178,190);
+color: white;
+border-radius: 50%;
+}
+
+.next:visited{
+    color: white;
+}
+
+
+b {
+text-decoration: none;
+display: inline-block;
+padding: 4px 10px;
+background-color: red;
+border-radius: 50%;
+color: white;
+}
+
+#review{
+    margin: 20px;
+    display: inline-grid;
+    width: auto;
+}
+
+#profpic{
+    height: 70px;
+    width: 70px;
+    display: inline;
+    margin: 0 -20px 0;
+    border-radius: 50%;
+}
+
+.rev-container {
+    margin: -80px 80px 0;
+    display: grid;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}

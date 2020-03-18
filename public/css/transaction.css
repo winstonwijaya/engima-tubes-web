@@ -1,0 +1,55 @@
+#moviepic {
+    width: 12%;
+    height: 100%;
+    margin: 0 2% 0 0;
+    float: left;
+    border-radius: 7px;
+}
+#movietext {
+    padding: 0px 0px 0px;
+}
+hr {
+    border-color:lightgray;
+    background-color:lightgray;
+}
+#movie-title {
+    margin: 0 0 1%;
+    font-size: large;
+}
+p {
+    font-size: small;
+}
+
+#moviedesc {
+    width: 80%;
+    height: 6%;
+}
+#movie {
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0 0;
+    min-height: 200px;
+}
+.button {
+    margin-right: 3px;
+    margin-top: 50px;
+    float: right;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    color:white;
+    border-radius: 5px;
+}
+#addreview {
+    background-color: rgb(0, 178, 190);
+}
+#deletereview {
+    background-color: red;
+}
+#editreview {
+    background-color: green;
+}
+
+a:active{
+    color:white;
+}

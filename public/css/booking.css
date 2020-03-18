@@ -1,0 +1,217 @@
+/* styling */
+#movie-title {
+    font-family: Arial, sans-serif ;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 10px;
+ }
+
+ #release-date{
+    word-spacing: 3px;
+    font-size: 16px;
+    margin: 0 0 10px;
+    color: gray;
+}
+
+/* back button to previous page */
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 10px;
+}
+
+.previous {
+    margin: 40px 0;
+    background-color: white;
+    font-size: 80px;
+    color: rgb(0,178,190);
+    overflow: hidden;
+}
+
+/* container for movie detail and schedule */
+.schedule{
+    margin: 40px 10px 0px;
+    height: auto;
+    padding: 40px 20px;
+    width: 100%;    
+    float: left;
+}
+
+.mov-schedule {
+    margin: -145px 70px 0px;
+    display: grid;
+    height: auto;
+    padding: 40px 20px;
+}
+
+/* horizontal line for separation */
+hr{
+    margin: 20px 0 40px;
+}
+
+/* flex container for seat booking */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+    width: 45%;
+    text-align: center;
+    margin: 0 0 0 20px;
+    border-right: 1px solid gray;
+}
+
+.flex-container>.seat-chair{
+    width: 25px;
+    height: 25px;
+    margin: 10px 10px 10px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+.flex-container>.not-booked{
+    color: rgb(0,178,190);
+    background-color: white;
+    border-color: rgb(0,178,190);
+}
+
+
+
+.flex-container>.not-booked:hover, .seat-active{
+    color: white;
+    background-color:lightblue ;
+}
+
+.flex-container>.not-booked:active{
+    color: white;
+    background-color:rgb(0,178,190) ;
+}
+
+.flex-container>.booked{
+    color: rgb(128,128,128);
+    background-color: lightgrey;
+    cursor: not-allowed;
+}
+
+.flex-container>.screen{
+    background-color: rgb(128,128,128);
+    color: white;
+    width: 95%;
+    height: 30px;
+    line-height: 30px;
+    margin: 20px 0 0;
+}
+
+
+/* Right side container for movie title, date, button to continue payment */
+.confirmation{
+    margin: -200px 40px 0;
+    /* height: auto; */
+    padding: 40px 20px;
+    width: 45%;    
+    float: right;
+}
+
+.booking-top{
+    margin: -45px 0 0;
+    height: auto;
+    padding: 20px;
+}
+
+.booking-summary{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(128,128,128);
+}
+
+.booking-detail{
+    margin: 10px 0 0 20px;
+    height: auto;
+}
+
+#detail-title{
+    font-weight: bold;
+    font-size: 16px;
+    margin: 5px 0 10px 0;
+}
+
+.seat{
+    margin: 20px 0 0 20px;
+}
+
+#booking-seat{
+    float: left;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#price{
+    float: right;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Buy ticket button */
+#buy-btn {
+    float: right;
+    background-color: rgb(0,178,190);
+    color: white;
+    margin: 30px -80px 0;
+    padding: 14px 20px;
+    width: 25%;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+}
+  
+#buy-btn:hover {
+    opacity: 0.5;
+}
+
+/* The Modal - background */
+.modal {
+    display: none; 
+    position: fixed;
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    text-align: center;
+    background-color: white;
+    margin: auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 30%;
+    height: auto;
+    box-sizing: content-box;
+}
+
+#payment{
+    margin: 60px 0 40px;
+    font-size: 30px;
+    color: darkblue; 
+}
+
+#thank-you{
+    font-size: 20px;
+    margin: 20px 0 60px;
+}
+
+.button-transaction{
+    font-size: 20px;
+    width: 100%;
+    height: auto;
+    margin: 40px 0 0;
+    background-color: rgb(0,178,190);
+    border-radius: 5px;
+    cursor: pointer;
+}

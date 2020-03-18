@@ -1,0 +1,70 @@
+h1 {
+    font-size:medium;
+    position: realtive;
+    margin: 80px 0px 0px;
+}
+
+h2 {
+    font-size:small;
+    color:gray;
+}
+
+#moviepic {
+    width: 10%;
+    height: 140px;
+    margin: 0px 2% 0px 0px;
+    float: left;
+    border-radius: 7px;
+}
+
+#movietext {
+    margin: 2% 0px 0px;
+    height: 150px;
+    position: relative;
+}
+
+hr {
+    border-color:lightgray;
+    background-color:lightgray;
+}
+
+#movietitle {
+    margin: 0px 0px 1%;
+}
+
+h3 {
+    font-size: medium;
+    font-weight: bold;
+}
+
+p {
+    font-size: small;
+}
+
+
+#moviedesc {
+    width: 80%;
+    height: 6%;
+}
+
+#movie {
+    margin: 50px 0px 0px;
+}
+
+#star {
+    color: orange;
+    font-size:150%;
+    border-radius: 3px;
+}
+
+#viewdetails {
+    float: right;
+    color: rgb(0, 178, 190);
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}

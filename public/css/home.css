@@ -1,0 +1,38 @@
+
+#moviepic {
+    width: 100%;
+    margin: 0 26px 10px 0;
+    float: left;
+    border-radius: 7px;
+}
+
+#star {
+    width: 20%;
+    height: 7%;
+    float: left;
+    margin: 0 0 0;
+    color:yellow;
+    font-size:300%;
+}
+#movie-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.flex-container>div{
+    color: black;
+    width: 120px;
+    margin: 20px;
+    font-size: 16px;
+}
+
+p {
+    font-size: 14px;
+}

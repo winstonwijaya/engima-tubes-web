@@ -1,0 +1,86 @@
+html {
+    margin: 0;
+    background: black;
+}
+
+body {
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+}
+
+#main-content {
+    height: auto;
+    min-height: 1000px;
+    margin: 0 10% 0;
+    background-color: white;
+    padding: 3% 3% 2%;
+}
+
+#engima{
+    float: left;
+    margin: 25px 0px 0px 300px;
+}
+
+.nav-container{
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+#s_icon{
+    position: fixed;
+    z-index: 1;
+    height: 15px;
+    width: 15px;
+    margin: 27px 0px 0px 280px;
+}
+
+input[type=text2]{
+    width: 15%;
+    padding: 7px 5px;
+    margin: 20px 0px 0px 40px;
+    display: inline-block;
+    border: 2px solid lightgrey;
+    box-sizing: border-box;
+    border-radius: 5px;
+    position: fixed;
+}
+
+a:visited{
+    color: black;
+}
+
+#right_opt{
+    display: block;
+    float: right;
+    font-size: 16px;
+    font-family: "Arial";
+    font-weight: bold;
+    padding: 14px;
+    margin: 20px 400px 0px 80px;
+}
+
+#right_opt:hover{
+    color: white;
+    background-color: lightgray;
+    border: none;
+}
+
+#tra{
+    display: block;
+    padding: 14px;
+    font-size: 16px;
+    font-family: "Arial";
+    font-weight: bold;
+    float: right;
+    margin: 20px 0px 0px;
+}
+
+#tra:hover{
+    color: white;
+    background-color: lightgray;
+    border: none;
+}

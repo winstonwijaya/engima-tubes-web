@@ -1,0 +1,51 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "Ini adalah API untuk website Engima IF3110 K3 - 18",
+    "version": "1.0.0",
+    "title": "Engima"
+  },
+  "paths": {
+    "/register/checkusername/": {
+      "get": {
+        "summary": "Check if username is already exists",
+        "parameters": [
+          {
+            "in": "query",
+            "name": "username",
+            "type": "string",
+            "description": "Username being checked",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "You can use this username"
+          },
+          "400": {
+            "description": "Username is already exists"
+          }
+        }
+      }
+    },
+    "/booking/book/": {
+      "post": {
+        "summary": "Order seat",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "seatnumber",
+            "type": "string",
+            "description": "seat number",
+            "required": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "You can order this seat"
+          }
+        }
+      }
+    }
+  }
+}
